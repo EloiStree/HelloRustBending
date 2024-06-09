@@ -34,5 +34,10 @@ En espérant que le code soit avec nous.
 Amicalement,
 Éloi
 
+Commencez là où j'ai débuté :
+[https://github.com/EloiStree/HelloRustBending/tree/main/RustEveryDay](https://github.com/EloiStree/HelloRustBending/tree/main/RustEveryDay)
+
+
+
 
 
