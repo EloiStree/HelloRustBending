@@ -12,7 +12,10 @@ Voici la correction de votre texte :
 Comme vous vous en doutez... la vidéo qui m'a donné envie est celle-ci, un "must watch":
 [![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/ee7bbbfb-755c-4bb0-9d79-ceab4397912c)](https://www.youtube.com/watch?v=HCOQmKTFzYY&ab_channel=Fireship)  
 [https://www.youtube.com/watch?v=HCOQmKTFzYY](https://www.youtube.com/watch?v=HCOQmKTFzYY)  
-
+- Install Rust: [https://www.rustup.rs](https://www.rustup.rs)
+- Documentation: [https://www.rust-lang.org/learn](https://www.rust-lang.org/learn)
+- Rust Bend: [https://crates.io/crates/bend-lang](https://crates.io/crates/bend-lang)
+- Rust Bend GitHub: [https://github.com/HigherOrderCO/Bend](https://github.com/HigherOrderCO/Bend)
 Unity3D possède deux outils très puissants :
 - les job systems : ils permettent de travailler sur la puissance du CPU
 - les compute shaders : ils permettent de travailler sur la puissance des maths dans le GPU
