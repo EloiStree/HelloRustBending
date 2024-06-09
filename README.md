@@ -16,6 +16,7 @@ Comme vous vous en doutez... la vidéo qui m'a donné envie est celle-ci, un "mu
 - Documentation: [https://www.rust-lang.org/learn](https://www.rust-lang.org/learn)
 - Rust Bend: [https://crates.io/crates/bend-lang](https://crates.io/crates/bend-lang)
 - Rust Bend GitHub: [https://github.com/HigherOrderCO/Bend](https://github.com/HigherOrderCO/Bend)
+
 Unity3D possède deux outils très puissants :
 - les job systems : ils permettent de travailler sur la puissance du CPU
 - les compute shaders : ils permettent de travailler sur la puissance des maths dans le GPU
