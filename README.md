@@ -18,7 +18,7 @@ Unity3D possède deux outils très puissants :
 - les compute shaders : ils permettent de travailler sur la puissance des maths dans le GPU
 
 Avoir la capacité d'utiliser les deux de manière native dans un code et pour 60-90% de votre code...
-C'est une promesse à ne pas prendre à la légère.
+C'est une promesse à ne pas prendre à la légère. Et c'est ce qu'il m'est vendu avec Rust Bend.
 
 Mon but est donc d'apprendre à utiliser Rust, puis Rust Bend, dans l'optique de créer des outils en réseau utilisant la puissance d'un ordinateur serveur en collaboration avec un serveur Unity3D.
 Y arriverai-je... Seul l'avenir nous le dira. Mais c'est vers là que je vais à raison de 5 minutes minimum par jour ;)
