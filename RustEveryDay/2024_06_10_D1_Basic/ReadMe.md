@@ -1,3 +1,6 @@
+![RustBard](https://github.com/EloiStree/HelloRustBending/assets/20149493/43e9a175-91c2-496f-a96e-cd05c476ffc7)
+
+
 
 Ok, I need to learn the basic.
 
