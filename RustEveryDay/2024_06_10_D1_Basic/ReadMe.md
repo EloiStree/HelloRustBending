@@ -10,3 +10,15 @@ And to learn how to send UDP message.
 
 
 https://code.visualstudio.com/docs/languages/rust
+
+
+
+Why library won't exist in Rust:
+[![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/ef031131-f0a7-439d-8e1b-4c501a576638)](https://youtu.be/769VqNup21Q)  
+[https://youtu.be/769VqNup21Q](https://youtu.be/769VqNup21Q)  
+- Expect long compile time
+- Expect by binary type
+- Rust app are just a bit binary of all the package loaded and your code that build in.
+
+
+
