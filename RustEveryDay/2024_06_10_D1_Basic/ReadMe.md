@@ -23,6 +23,82 @@ https://code.visualstudio.com/docs/languages/rust
 # Pratice
 
 
+## Learned
+
+### Struct over Class and  composite over inheritence
+![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/7aa041bb-a01c-4725-8510-a1604259e464)
+
+Wow  :) beautifull. Let's try it.
+``` rust
+// Define a trait
+trait Summary {
+    fn summarize(&self) -> String;
+}
+
+// Define a struct
+struct Article {
+    title: String,
+    author: String,
+    content: String,
+}
+
+// Implement the trait for the struct
+impl Summary for Article {
+    fn summarize(&self) -> String {
+        format!("{}, by {}", self.title, self.author)
+    }
+}
+
+struct Tweet {
+    username: String,
+    content: String,
+    retweet_count: u32,
+}
+
+// Implement the trait for another struct
+impl Summary for Tweet {
+    fn summarize(&self) -> String {
+        format!("{}: {}", self.username, self.content)
+    }
+}
+
+fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+
+fn main() {
+    let article = Article {
+        title: String::from("Rust Programming"),
+        author: String::from("Jane Doe"),
+        content: String::from("Rust is a systems programming language..."),
+    };
+
+    let tweet = Tweet {
+        username: String::from("@johndoe"),
+        content: String::from("Learning Rust is great!"),
+        retweet_count: 100,
+    };
+
+    notify(&article);
+    notify(&tweet);
+}
+```
+
+### From and string
+![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/b7be1462-50a9-4234-b006-a34c009ffd98)
+
+`String::from("Your string") ` very cool :), it store a string as a dynamic arry of unsigned integer if 8 bit.
+Just that is proving the quality of Rust language ^^.
+
+It use a Vec. and apparenlty:
+
+```
+Vec<u8> in Rust represents a vector of bytes. Here's a breakdown:
+
+Vec: This is a dynamic array or vector in Rust. It can grow or shrink in size as needed and is stored on the heap. It's part of the standard library.
+<u8>: This is a type parameter specifying the type of elements the vector holds. In this case, u8 represents an 8-bit unsigned integer, commonly used to represent bytes in Rust.
+```
+
 
 
 
