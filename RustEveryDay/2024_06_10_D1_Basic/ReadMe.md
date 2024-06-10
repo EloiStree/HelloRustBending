@@ -1,25 +1,12 @@
-![RustBard](https://github.com/EloiStree/HelloRustBending/assets/20149493/43e9a175-91c2-496f-a96e-cd05c476ffc7)
+
+![image](https://github.com/EloiStree/2024_06_08_MordhauPythonMidi/assets/20149493/6da5ef67-66ed-4b98-bf96-6e62c69add4b)
+
+
+You will need this python file (for the moment):
+https://github.com/EloiStree/2024_06_08_MordhauPythonMidi/blob/main/MordhauConsoleMusicByUDPIID.py
+
+And to learn how to send UDP message.
 
 
 
-Ok, I need to learn the basic.
-
-What variable, methode and all the OOP coding. 
-I need to jump on Bend as soon as I can, but I can't without knowing Rust a minimum.
-
-So let's do that.
-
-
-
-
-----------
-
-Random note:
-Recurcivity: 
-- https://youtu.be/HCOQmKTFzYY?t=201
-  - https://youtu.be/rf60MejMz3E
-
-
-Exercice: affect Mordhau game with Rust and Gate IID Python
-- https://github.com/EloiStree/2024_05_11_GateIID_WS_Python
-- https://github.com/EloiStree/2024_06_08_MordhauPythonMidi
+https://code.visualstudio.com/docs/languages/rust
