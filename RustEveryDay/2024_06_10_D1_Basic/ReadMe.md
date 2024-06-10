@@ -14,6 +14,24 @@ https://code.visualstudio.com/docs/languages/rust
 
 
 
+## Module :)
+
+![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/7784e0d8-1d6e-4eaf-bd91-19b725086421)
+
+
+```
+// utils.rs
+
+pub mod utils {
+    pub fn calculate_area(width: f64, height: f64) -> f64 {
+        width * height
+    }
+
+    pub fn greet(name: &str) {
+        println!("Hello, {}!", name);
+    }
+}
+```
 
 
 
