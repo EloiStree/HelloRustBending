@@ -19,6 +19,15 @@ Why library won't exist in Rust:
 - Expect long compile time
 - Expect by binary type
 - Rust app are just a bit binary of all the package loaded and your code that build in.
+- C vs Rust:  https://youtu.be/NtYHC1KNGoc
+  - All the world is 'C'
+  - Rust is "operating system coding"
+  - 
+
+
+Memory file in Rust is possible ?
+- Because I need to send big data from Unity to Rust and Rust to Unity
+- https://chatgpt.com/share/acc00a77-e281-4002-9966-750885d929d4
 
 
 
