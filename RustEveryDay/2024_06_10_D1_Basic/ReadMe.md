@@ -15,3 +15,8 @@ Random note:
 Recurcivity: 
 - https://youtu.be/HCOQmKTFzYY?t=201
   - https://youtu.be/rf60MejMz3E
+
+
+Exercice: affect Mordhau game with Rust and Gate IID Python
+- https://github.com/EloiStree/2024_05_11_GateIID_WS_Python
+- https://github.com/EloiStree/2024_06_08_MordhauPythonMidi
