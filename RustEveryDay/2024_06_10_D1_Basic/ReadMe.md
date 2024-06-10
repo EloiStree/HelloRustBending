@@ -31,3 +31,9 @@ Memory file in Rust is possible ?
 
 
 
+https://youtu.be/UdE8_V05BI8?t=159
+- Borrow checker : Who is responsible of a variable
+- Can't access out of boundary memory
+
+
+
