@@ -101,6 +101,58 @@ Vec: This is a dynamic array or vector in Rust. It can grow or shrink in size as
 
 
 
+## How to name stuff ?
+
+In Rust, there are conventions for naming functions, variables, and other identifiers that help maintain consistency and readability across codebases. Here are some common conventions:
+
+### Functions
+- **Snake Case**: Use lowercase letters and underscores to separate words.
+  - Example: `calculate_area`, `process_data`, `parse_input`.
+
+### Variables
+- **Snake Case**: Same as functions, use lowercase letters and underscores to separate words.
+  - Example: `user_name`, `total_count`, `result_value`.
+- **Immutable Variables**: Prefix immutable variables with `let`.
+  - Example: `let count = 10;`, `let name = "Alice";`.
+
+### Constants
+- **Upper Snake Case**: Use uppercase letters and underscores to separate words.
+  - Example: `MAX_VALUE`, `DEFAULT_TIMEOUT`.
+
+### Types
+- **Camel Case**: Capitalize the first letter of each word except the first, without underscores.
+  - Example: `String`, `HashMap`, `Result`.
+
+### Enums and Structs
+- **Pascal Case**: Capitalize the first letter of each word, without underscores.
+  - Example: `User`, `HttpRequest`, `LogLevel`.
+
+### Traits
+- **Pascal Case**: Same as enums and structs.
+  - Example: `Display`, `Clone`, `Serialize`.
+
+### Modules
+- **Snake Case**: Lowercase, with underscores separating words.
+  - Example: `networking`, `data_processing`.
+
+### Crate Names
+- **Snake Case**: Lowercase, with underscores separating words.
+  - Example: `rand`, `serde`, `actix_web`.
+
+### Macro Names
+- **Snake Case**: Lowercase, with underscores separating words.
+  - Example: `println`, `vec`, `format`.
+
+### Lifetimes
+- **Short, Descriptive Names**: Single-letter names are common, but use meaningful names if clarity is improved.
+  - Example: `'a`, `'input`, `'output`.
+
+### Documentation
+- **Comments**: Use `//` for single-line comments and `/* */` for multi-line comments.
+- **Doc Comments**: Write documentation using `///` for documenting items and `//!` for documenting the containing item.
+
+These conventions help make Rust code more readable and maintainable, and following them makes your code more idiomatic and understandable to other Rust developers. However, consistency within a project or team is more important than strict adherence to any single convention.
+
 
 
 # Check list
