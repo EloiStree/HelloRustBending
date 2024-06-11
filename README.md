@@ -39,5 +39,12 @@ Commencez là où j'ai débuté :
 
 
 
+---------------
+
+# Rust Bend
+- GitHub: https://github.com/HigherOrderCO/Bend
+- Discord: https://discord.com/invite/kindelia
+
+
 
 
