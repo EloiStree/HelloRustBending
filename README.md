@@ -65,8 +65,8 @@ Commencez là où j'ai débuté :
 
 ## WSL 2
 
-Ok. You are going to learn Bend and you are on Window... First install WSL2 that create a linux on your Window. 
-Tutorial there:
+Ok. You are going to learn Bend and you are on Window... First install WSL2 that create a linux on your Window.   
+Tutorial there: [Issue 15](https://github.com/EloiStree/HelloRustBending/issues/15)
   
 Then watch this video xD !!!  
 [![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/17b6b00d-828a-432a-b646-c5704d406cee)
