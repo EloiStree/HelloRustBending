@@ -61,3 +61,18 @@ Commencez là où j'ai débuté :
   - Good Guide: https://github.com/HigherOrderCO/Bend/blob/main/GUIDE.md
   - Guide: https://peq42.com/blog/bend-a-basic-introduction/
 
+
+
+## WSL 2
+
+Ok. You are going to learn Bend and you are on Window... First install WSL2 that create a linux on your Window. 
+Tutorial there:
+  
+Then watch this video xD !!!  
+[![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/17b6b00d-828a-432a-b646-c5704d406cee)
+](https://youtu.be/LktFP0Dpl-c)  
+[https://youtu.be/LktFP0Dpl-c](https://youtu.be/LktFP0Dpl-c)  
+Then install Visual Code if you don't have it and WSL   
+[![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/e27b0a98-5ff8-4006-a5a8-4bc0b89f2b25)](https://code.visualstudio.com/docs/remote/wsl)  
+Doc: https://code.visualstudio.com/docs/remote/wsl  
+
