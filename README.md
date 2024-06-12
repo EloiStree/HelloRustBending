@@ -44,10 +44,12 @@ Commencez là où j'ai débuté :
 
 ---------------
 
-# Rust Bend
+#  Bend
 - GitHub: https://github.com/HigherOrderCO/Bend
 - Discord: https://discord.com/invite/kindelia
-
-
+- Doc: https://docs.rs/bend-lang/0.2.33/bend/
+- Some stuff to read:
+  - Write up start: https://evanw.github.io/bend/ 
+  - Tutorial: https://bendlang.com/
 
 
