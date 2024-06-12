@@ -45,11 +45,19 @@ Commencez là où j'ai débuté :
 ---------------
 
 #  Bend
+
+> We're the HOC, a tech startup with the goal of building the inevitable massively parallel future of computers. We believe the Interaction Net is a powerful model of computation that will give birth to massively parallel runtimes and processors. To pave the way forward, we built:
+> [HVM](https://github.com/HigherOrderCO/hvm): a parallel runtime
+> [Bend](https://github.com/HigherOrderCO/Bend): a parallel language
+> Source [https://github.com/HigherOrderCO](https://github.com/HigherOrderCO)
+
 - GitHub: https://github.com/HigherOrderCO/Bend
 - Discord: https://discord.com/invite/kindelia
 - Doc: https://docs.rs/bend-lang/0.2.33/bend/
 - Some stuff to read:
   - Write up start: https://evanw.github.io/bend/ 
   - Tutorial: https://bendlang.com/
+  - Behind the scene: [Paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/HigherOrderCO/HVM/main/paper/PAPER.pdf)
+  - Good Guide: https://github.com/HigherOrderCO/Bend/blob/main/GUIDE.md
 
 
