@@ -39,7 +39,7 @@ Commencez là où j'ai débuté :
 
 
 
-# Discord team note
+### Discord team note
 - "You don't need to know rust to use bend."
 
 ---------------
