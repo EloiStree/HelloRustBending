@@ -59,5 +59,5 @@ Commencez là où j'ai débuté :
   - Tutorial: https://bendlang.com/
   - Behind the scene: [Paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/HigherOrderCO/HVM/main/paper/PAPER.pdf)
   - Good Guide: https://github.com/HigherOrderCO/Bend/blob/main/GUIDE.md
-
+  - Guide: https://peq42.com/blog/bend-a-basic-introduction/
 
