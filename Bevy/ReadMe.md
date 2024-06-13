@@ -8,3 +8,7 @@ That I can bet on it for my future incomine 20 years... When Unity3D. I don't kn
 
 I love the simplicity of Unity3D for create good face game.
 But do I want my server to be in Unity ECS or Script Mono ...
+
+
+I want to have fun creating game with 16k+ player in the same room. 
+I have the feeling that Rust can offert that.
