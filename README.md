@@ -1,5 +1,8 @@
 # Hello Rust Bending
 
+![RustBendDroneXR](https://github.com/EloiStree/HelloRustBending/assets/20149493/076b4da0-cae1-4635-b1fc-a2b33eeefb6a)
+
+
 > Tous les jours, je vais passer au moins 5 minutes à apprendre Rust dans le but de créer un serveur multijoueur en Rust Bend.
 > Je pars de zéro, mais j'ai un background de 10 ans sous Unity3D.
 > Si vous avez envie d'apprendre à coder en Rust, c'est l'occasion d'étudier en même temps que moi.
