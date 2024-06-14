@@ -1,3 +1,6 @@
+
+
+![RustBendDroneXR](https://github.com/EloiStree/HelloRustBending/assets/20149493/076b4da0-cae1-4635-b1fc-a2b33eeefb6a)
 # Hello Rust Bending
 
 > Tous les jours, je vais passer au moins 5 minutes à apprendre Rust dans le but de créer un serveur multijoueur en Rust Bend.
@@ -39,5 +42,45 @@ Commencez là où j'ai débuté :
 
 
 
+### Discord team note
+- "You don't need to know rust to use bend."
 
+---------------
+
+#  Bend
+
+> We're the HOC, a tech startup with the goal of building the inevitable massively parallel future of computers. We believe the Interaction Net is a powerful model of computation that will give birth to massively parallel runtimes and processors. To pave the way forward, we built:
+> [HVM](https://github.com/HigherOrderCO/hvm): a parallel runtime
+> [Bend](https://github.com/HigherOrderCO/Bend): a parallel language
+> Source [https://github.com/HigherOrderCO](https://github.com/HigherOrderCO)
+
+- GitHub: https://github.com/HigherOrderCO/Bend
+- Discord: https://discord.com/invite/kindelia
+- Doc: https://docs.rs/bend-lang/0.2.33/bend/
+- Some stuff to read:
+  - Write up start: https://evanw.github.io/bend/ 
+  - Tutorial: https://bendlang.com/
+  - Behind the scene: [Paper](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/HigherOrderCO/HVM/main/paper/PAPER.pdf)
+  - Good Guide: https://github.com/HigherOrderCO/Bend/blob/main/GUIDE.md
+  - Guide: https://peq42.com/blog/bend-a-basic-introduction/
+
+
+
+## WSL 2
+
+Ok. You are going to learn Bend and you are on Window... First install WSL2 that create a linux on your Window.   
+My note there: [Issue 15](https://github.com/EloiStree/HelloRustBending/issues/15)  
+Install WSL2:  
+[![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/3896f814-284a-47ae-b876-72577d2a7870)](https://youtu.be/QC7a9nowsz8)  
+https://youtu.be/QC7a9nowsz8  
+
+
+  
+Then watch this video xD !!!  
+[![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/17b6b00d-828a-432a-b646-c5704d406cee)
+](https://youtu.be/LktFP0Dpl-c)  
+[https://youtu.be/LktFP0Dpl-c](https://youtu.be/LktFP0Dpl-c)  
+Then install Visual Code if you don't have it and WSL   
+[![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/e27b0a98-5ff8-4006-a5a8-4bc0b89f2b25)](https://code.visualstudio.com/docs/remote/wsl)  
+Doc: https://code.visualstudio.com/docs/remote/wsl  
 
