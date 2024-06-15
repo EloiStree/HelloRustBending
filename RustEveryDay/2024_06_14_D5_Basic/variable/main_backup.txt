@@ -1,0 +1,43 @@
+use hidapi::HidApi;
+
+fn main() {
+    println!("Hello, Xbox!");
+
+    // Initialize the HID API
+    let api = HidApi::new().unwrap();
+
+    // Search for Xbox controller based on vendor and product IDs
+    let vendor_id = 0x045e; // Microsoft vendor ID for Xbox controllers
+    let product_id = 0x028e; // Xbox 360 controller product ID
+    let mut device = match api.device_list().find(|d| d.vendor_id() == vendor_id && d.product_id() == product_id) {
+        Some(device) => device,
+        None => {
+            eprintln!("Xbox controller not found.");
+            return;
+        }
+    };
+
+    // Open the Xbox controller device
+    let mut device_handle = match device.open_device(&api) {
+        Ok(handle) => handle,
+        Err(e) => {
+            eprintln!("Failed to open device: {}", e);
+            return;
+        }
+    };
+
+    // Continuously read input from the Xbox controller
+    loop {
+        let mut buffer = [0u8; 8];
+        match device_handle.read(&mut buffer) {
+            Ok(_) => {
+                // Process the data from the buffer (you might want to parse and interpret this data)
+                println!("Received data: {:?}", buffer);
+            },
+            Err(e) => {
+                eprintln!("Error reading from device: {}", e);
+                break; // Exit loop on error
+            }
+        }
+    }
+}
