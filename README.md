@@ -91,4 +91,5 @@ Doc: https://code.visualstudio.com/docs/remote/wsl
 - Simple et bon:  https://blog.guillaume-gomez.fr/Rust/1/4
   - sur git: https://github.com/GuillaumeGomez/tuto-rust-fr  
 - Reddit 'Rustfr': https://www.reddit.com/r/rustfr/
-- Loic Rust: https://www.youtube.com/@LoicRust/videos
+- Loic Rust: https://www.youtube.com/@LoicRust/videosµ
+  - Pourquoi apprendre Rust: https://youtu.be/7eVqpiOIC-A
