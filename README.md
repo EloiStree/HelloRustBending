@@ -93,3 +93,6 @@ Doc: https://code.visualstudio.com/docs/remote/wsl
 - Reddit 'Rustfr': https://www.reddit.com/r/rustfr/
 - Loic Rust: https://www.youtube.com/@LoicRust/videosµ
   - Pourquoi apprendre Rust: https://youtu.be/7eVqpiOIC-A
+
+# Guide in English
+- Official Book: https://doc.rust-lang.org/stable/book/ch00-00-introduction.html
