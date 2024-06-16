@@ -84,3 +84,11 @@ Then install Visual Code if you don't have it and WSL
 [![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/e27b0a98-5ff8-4006-a5a8-4bc0b89f2b25)](https://code.visualstudio.com/docs/remote/wsl)  
 Doc: https://code.visualstudio.com/docs/remote/wsl  
 
+
+
+# Tutorials pour les français:
+
+- Simple et bon:  https://blog.guillaume-gomez.fr/Rust/1/4
+  - sur git: https://github.com/GuillaumeGomez/tuto-rust-fr  
+- Reddit 'Rustfr': https://www.reddit.com/r/rustfr/
+- Loic Rust: https://www.youtube.com/@LoicRust/videos
