@@ -10,7 +10,7 @@ use std::error::Error;
 fn main() -> Result<(), Box<dyn Error>> {
     // Generate a 1024-bit RSA private key
     let mut rng = OsRng;
-    let bits = 1024;
+    let bits = 1024; //512 petit, 1024 moyen, 2048 grand
     let private_key = RsaPrivateKey::new(&mut rng, bits)?;
 
     // Derive the public key from the private key
@@ -29,6 +29,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut pub_file = File::create("public_key.pem")?;
     pub_file.write_all(pub_pem.as_bytes())?;
 
+
     let private_pem_string = priv_pem.to_string();
     let public_pem_string = pub_pem.to_string();
 
@@ -36,6 +37,20 @@ fn main() -> Result<(), Box<dyn Error>> {
     println!("public_pem_string: {}", public_pem_string);
 
     
+    // // Sign the message
+    // let message = b"Hello";
+    // let mut hasher = Sha256::new();
+    // hasher.update(message);
+    // let hash = hasher.finalize();
+    // let signature = private_key.sign(&hash)?;
+
+    // // Verify the signature
+    // let is_valid = public_key.verify(&hash, &signature)?;
+    // if is_valid {
+    //     println!("Signature is valid");
+    // } else {
+    //     println!("Signature is invalid");
+    // }
 
     Ok(())
 }
