@@ -102,3 +102,6 @@ Doc: https://code.visualstudio.com/docs/remote/wsl
 
 ## Watch later
 - Playlist: https://github.com/EloiStree/HelloRustBending/issues/26
+
+## Note
+- Rust forum: https://users.rust-lang.org/categories
