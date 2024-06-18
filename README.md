@@ -84,3 +84,21 @@ Then install Visual Code if you don't have it and WSL
 [![image](https://github.com/EloiStree/HelloRustBending/assets/20149493/e27b0a98-5ff8-4006-a5a8-4bc0b89f2b25)](https://code.visualstudio.com/docs/remote/wsl)  
 Doc: https://code.visualstudio.com/docs/remote/wsl  
 
+
+
+# Tutorials pour les français:
+
+- Simple et bon:  https://blog.guillaume-gomez.fr/Rust/1/4
+  - sur git: https://github.com/GuillaumeGomez/tuto-rust-fr  
+- Reddit 'Rustfr': https://www.reddit.com/r/rustfr/
+- Loic Rust: https://www.youtube.com/@LoicRust/videosµ
+  - Pourquoi apprendre Rust: https://youtu.be/7eVqpiOIC-A
+
+# Guide in English
+
+- Baisc Bend tutorial playlist: https://youtu.be/uG1ugDp3WTU?list=PLyatO8nCMQlbvszvX_AA1BNrvar3uuuQQ
+- Official Book: https://doc.rust-lang.org/stable/book/ch00-00-introduction.html
+
+
+## Watch later
+- Playlist: https://github.com/EloiStree/HelloRustBending/issues/26
