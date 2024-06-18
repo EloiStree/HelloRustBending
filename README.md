@@ -98,3 +98,7 @@ Doc: https://code.visualstudio.com/docs/remote/wsl
 
 - Baisc Bend tutorial playlist: https://youtu.be/uG1ugDp3WTU?list=PLyatO8nCMQlbvszvX_AA1BNrvar3uuuQQ
 - Official Book: https://doc.rust-lang.org/stable/book/ch00-00-introduction.html
+
+
+## Watch later
+- Playlist: https://github.com/EloiStree/HelloRustBending/issues/26
