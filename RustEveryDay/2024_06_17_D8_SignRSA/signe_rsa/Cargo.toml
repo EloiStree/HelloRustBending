@@ -1,0 +1,12 @@
+[package]
+name = "signe_rsa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsa = "0.9.6"
+rand = "0.8.5"
+rsa-export = "0.3.3"
+sha2 = "0.10.2"
+pem = "3.0.4"
+base64 = "0.22.1"
