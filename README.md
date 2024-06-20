@@ -93,7 +93,8 @@ Doc: https://code.visualstudio.com/docs/remote/wsl
 - Reddit 'Rustfr': https://www.reddit.com/r/rustfr/
 - Loic Rust: https://www.youtube.com/@LoicRust/videosµ
   - Pourquoi apprendre Rust: https://youtu.be/7eVqpiOIC-A
-
+- Mes vidéos de 5 minutes par jour: https://www.youtube.com/@EloiTeaching/search?query=Rust%20Every%20Day
+  
 # Guide in English
 
 - Baisc Bend tutorial playlist: https://youtu.be/uG1ugDp3WTU?list=PLyatO8nCMQlbvszvX_AA1BNrvar3uuuQQ
@@ -102,3 +103,6 @@ Doc: https://code.visualstudio.com/docs/remote/wsl
 
 ## Watch later
 - Playlist: https://github.com/EloiStree/HelloRustBending/issues/26
+
+## Note
+- Rust forum: https://users.rust-lang.org/categories
