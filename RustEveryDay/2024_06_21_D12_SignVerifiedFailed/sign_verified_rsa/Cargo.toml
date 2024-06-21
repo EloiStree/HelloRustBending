@@ -1,0 +1,10 @@
+[package]
+name = "sign_verified_rsa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsa= {git="https://github.com/RustCrypto/RSA.git"}
+rand= {git="https://github.com/rust-random/rand.git"}
+sha2 = "0.10.8"
+ring="0.17.8"
