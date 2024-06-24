@@ -57,6 +57,7 @@ Commencez là où j'ai débuté :
 - GitHub: https://github.com/HigherOrderCO/Bend
 - Discord: https://discord.com/invite/kindelia
 - Doc: https://docs.rs/bend-lang/0.2.33/bend/
+  - Syntax ([plenty of small example](https://github.com/HigherOrderCO/Bend/blob/main/docs/syntax.md)) 
 - Some stuff to read:
   - Write up start: https://evanw.github.io/bend/ 
   - Tutorial: https://bendlang.com/
