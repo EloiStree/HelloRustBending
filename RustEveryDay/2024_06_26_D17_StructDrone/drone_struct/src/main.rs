@@ -5,7 +5,252 @@ fn main() {
     println!("Hello, world!");
     let websocket_uri = "ws://81.240.94.97:4504";
 
-    let CPS_BytePerType = CPS_BytePerType {
+    let mut drones_soccer_12: [S_DronePositionCompressed; 12] = [
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+        S_DronePositionCompressed {
+            local_position_x_from_center: 0,
+            local_position_y_from_ground: 0,
+            local_position_z_from_center: 0,
+            euler_angle_x: 0,
+            euler_angle_y: 0,
+            euler_angle_z: 0,
+        },
+
+
+    ];
+
+
+    let mut drone_positions:S_DroneSoccerPositions= S_DroneSoccerPositions{
+        date_time_utc_tick: 0,
+        frame_pushed: 0,
+        red_drone0_stricker: drones_soccer_12[0],
+        red_drone1: drones_soccer_12[1],
+        red_drone2: drones_soccer_12[2],
+        red_drone3: drones_soccer_12[3],
+        red_drone4: drones_soccer_12[4],
+        red_drone5: drones_soccer_12[5],
+        blue_drone0_stricker: drones_soccer_12[6],
+        blue_drone1: drones_soccer_12[7],
+        blue_drone2: drones_soccer_12[8],
+        blue_drone3: drones_soccer_12[9],
+        blue_drone4: drones_soccer_12[10],
+        blue_drone5: drones_soccer_12[11],
+    };
+
+
+
+
+
+    let mut last_struct_received: S_All= S_All{
+        s_drone_positions: drone_positions,
+        s_public_elliptic_curve_claim   : S_DroneSoccerPublicXmlRsaKey1024Claim{
+            red_drone0_stricker: "".to_string(),
+            red_drone1: "".to_string(),
+            red_drone2: "".to_string(),
+            red_drone3: "".to_string(),
+            red_drone4: "".to_string(),
+            red_drone5: "".to_string(),
+            blue_drone0_stricker: "".to_string(),
+            blue_drone1: "".to_string(),
+            blue_drone2: "".to_string(),
+            blue_drone3: "".to_string(),
+            blue_drone4: "".to_string(),
+            blue_drone5: "".to_string(),
+        },
+        s_match_time_value: S_DroneSoccerTimeValue{
+            seconds_since_match_started: 0.0,
+            seconds_since_set_started: 0.0,
+            time_of_server_date_time_utc_now_ticks: 0,
+        },
+        s_soccer_ball_position: S_DroneSoccerBallPosition{
+            date_time_utc_tick: 0,
+            position: Vector3{x: 0.0, y: 0.0, z: 0.0},
+            rotation: Quaternion{x: 0.0, y: 0.0, z: 0.0, w: 0.0},
+        },
+        s_points_state: S_DroneSoccerMatchState{
+            blue_points: 0,
+            red_points: 0,
+            blue_sets: 0,
+            red_sets: 0,
+            utc_tick_in_seconds_when_match_started: 0,
+            utc_tick_in_seconds_when_match_finished: 0,
+        },
+        s_index_integer_claim: S_DroneSoccerIndexIntegerClaim{
+            red_drone0_stricker: 0,
+            red_drone1: 0,
+            red_drone2: 0,
+            red_drone3: 0,
+            red_drone4: 0,
+            red_drone5: 0,
+            blue_drone0_stricker: 0,
+            blue_drone1: 0,
+            blue_drone2: 0,
+            blue_drone3: 0,
+            blue_drone4: 0,
+            blue_drone5: 0,
+        },
+        s_public_rsa_key_claim: S_DroneSoccerPublicXmlRsaKey1024Claim{
+            red_drone0_stricker: "".to_string(),
+            red_drone1: "".to_string(),
+            red_drone2: "".to_string(),
+            red_drone3: "".to_string(),
+            red_drone4: "".to_string(),
+            red_drone5: "".to_string(),
+            blue_drone0_stricker: "".to_string(),
+            blue_drone1: "".to_string(),
+            blue_drone2: "".to_string(),
+            blue_drone3: "".to_string(),
+            blue_drone4: "".to_string(),
+            blue_drone5: "".to_string(),
+        },
+        s_arena_static_information: S_DroneSoccerMatchStaticInformation{
+            max_timing_of_set_in_seconds: 0.0,
+            max_timing_of_match_in_seconds: 0.0,
+            number_of_sets_to_win_match: 0.0,
+            number_of_points_to_force_win_set: 0.0,
+            arena_width_meter: 0.0,
+            arena_height_meter: 0.0,
+            arena_depth_meter: 0.0,
+            goal_distance_of_center_meter: 0.0,
+            goal_center_height_meter: 0.0,
+            goal_inner_radius_meter: 0.0,
+            goal_outer_radius_meter: 0.0,
+            goal_depth_meter: 0.0,
+            drone_sphere_radius_meter: 0.0,
+        },
+        s_soccer_ball_goals: S_DroneSoccerBallGoals{
+            goal_distance_of_center_meter: 0.0,
+            goal_ground_height_meter: 0.0,
+            goal_width_radius_meter: 0.0,
+            goal_depth_meter: 0.0,
+            ball_radius: 0.0,
+        },
+        s_projectile_creation: S_LinearProjectilePoolItemCreationEvent{
+            pool_id: 0,
+            pool_item_index: 0,
+            server_utc_now_ticks: 0,
+            start_position: Vector3{x: 0.0, y: 0.0, z: 0.0},
+            start_rotation: Quaternion{x: 0.0, y: 0.0, z: 0.0, w: 0.0},
+            start_direction: Vector3{x: 0.0, y: 0.0, z: 0.0},
+            speed_in_meters_per_second: 0.0,
+            collider_radius: 0.0,
+        },
+        s_projectile_destruction: S_PoolItemDestructionEvent{
+            pool_id: 0,
+            pool_item_index: 0,
+            server_utc_now_ticks: 0,
+        },
+        s_server_frame_time: S_NetworkGameFramePushTiming{
+            utc_now_tick_server: 0,
+            game_network_frame: 0,
+        },
+        s_double_guid_item_spawn: S_DoubleGuidItemSpawn{
+            server_utc_time_ticks_now: 0,
+            item_string: "".to_string(),
+            prefab_string: "".to_string(),
+            item_guid_as_bytes: vec![],
+            prefab_guid_as_bytes: vec![],
+            arena_position: Vector3{x: 0.0, y: 0.0, z: 0.0},
+            arena_rotation: Quaternion{x: 0.0, y: 0.0, z: 0.0, w: 0.0},
+            arena_scale: Vector3{x: 0.0, y: 0.0, z: 0.0},
+        },
+        s_double_guid_item_destruction: S_DoubleGuidItemDestruction{
+            server_utc_time_ticks_now: 0,
+            item_string: "".to_string(),
+            prefab_string: "".to_string(),
+            item_guid_as_bytes: vec![],
+            prefab_guid_as_bytes: vec![],
+        }
+    };
+
+    let first_byte_category_type: CPS_BytePerType  = CPS_BytePerType {
         byte_drone_positions: 10,
         byte_match_time_value: 11,
         byte_soccer_ball_position: 15,
@@ -37,7 +282,7 @@ fn main() {
                 10 => {
                     //let drone_positions: S_DroneSoccerPositions = bincode::deserialize(&data[1..]).expect("Failed to deserialize drone positions");
                     // Process drone positions
-                    
+
                 },
                 11 => {
                     //let match_time_value: S_DroneSoccerTimeValue = bincode::deserialize(&data[1..]).expect("Failed to deserialize match time value");
@@ -128,6 +373,25 @@ pub struct CPS_BytePerType {
     pub byte_double_guid_item_spawn: u8,
     pub byte_double_guid_item_destruction: u8,
 }
+
+#[derive(Debug, Clone)]
+pub  struct  S_All{
+    pub s_drone_positions: S_DroneSoccerPositions,
+    pub s_match_time_value: S_DroneSoccerTimeValue,
+    pub s_soccer_ball_position: S_DroneSoccerBallPosition,
+    pub s_points_state: S_DroneSoccerMatchState,
+    pub s_index_integer_claim: S_DroneSoccerIndexIntegerClaim,
+    pub s_public_rsa_key_claim: S_DroneSoccerPublicXmlRsaKey1024Claim,
+    pub s_public_elliptic_curve_claim: S_DroneSoccerPublicXmlRsaKey1024Claim,
+    pub s_arena_static_information: S_DroneSoccerMatchStaticInformation,
+    pub s_soccer_ball_goals: S_DroneSoccerBallGoals,
+    pub s_projectile_creation: S_LinearProjectilePoolItemCreationEvent,
+    pub s_projectile_destruction:   S_PoolItemDestructionEvent,
+    pub s_server_frame_time: S_NetworkGameFramePushTiming,
+    pub s_double_guid_item_spawn: S_DoubleGuidItemSpawn,
+    pub s_double_guid_item_destruction: S_DoubleGuidItemDestruction,
+}
+
 
 #[derive(Debug, Clone, Copy)]
 pub struct S_PoolItemDestructionEvent {
