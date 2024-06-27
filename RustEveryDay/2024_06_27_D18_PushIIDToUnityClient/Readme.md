@@ -1,4 +1,6 @@
 https://github.com/EloiStree/2024_05_11_GateIID_WS_UnityProject.git 
+
+```
 use std::net::UdpSocket;
 
 fn main() {
@@ -29,3 +31,4 @@ fn push_integer_to_gate_udp(int_port: u32, int_value: u32) {
         .send_to(&bytes, address)
         .expect("Failed to send data");
 }
+```
